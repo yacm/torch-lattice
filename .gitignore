@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+benchmarks/results/
+*.lime
+*.bin
+.pytest_cache/
+
+# Secretos y credenciales locales (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.credentials
+credentials.json
+secrets.*

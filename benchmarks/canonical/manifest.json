@@ -1,0 +1,18 @@
+{
+  "description": "Canonical thermalized Chroma field for JAX/Chroma benchmarks",
+  "lattice_shape": [4, 4, 4, 8],
+  "beta": 6.0,
+  "m0": -0.5,
+  "plaquette": 0.725713584607721,
+  "binary_dump": {
+    "path": "cfg_7.bin",
+    "bytes": 294912,
+    "sha256": "c022cac6a1d3d4857366077ab173a741df5a0eaf975fa34ecc7a127750ba286b",
+    "layout": "[mu][x][y][z][t][i][j], float64 real/imag interleaved"
+  },
+  "source_lime": {
+    "path": "../../../lattice-qcd/runs/bench2flav/dummy_run_cfg_7.lime",
+    "bytes": 299704,
+    "sha256": "6a9a9ddbf02aaf89f435874c795a60dcda369a27b7b97d54d9cc2b2e1a85415e"
+  }
+}
